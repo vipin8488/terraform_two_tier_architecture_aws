@@ -10,6 +10,9 @@ This project deploys a **production-ready two-tier application** on AWS using Te
 - **AWS Secrets Manager** for secure credential storage.
 - **Remote state management** with S3 and DynamoDB for locking.
 
+- remember that environment folder is just env not environment
+  
+
 - <img width="1536" height="1024" alt="ChatGPT Image Jan 8, 2026, 08_39_07 PM" src="https://github.com/user-attachments/assets/0fb8ec7f-db4b-44b3-93c2-674d11ea1a12" />
 
 
