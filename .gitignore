@@ -1,0 +1,22 @@
+# Create .gitignore
+cat > .gitignore << 'EOF'
+# Terraform state files
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# CRITICAL: Never commit these!
+
+*.auto.tfvars
+*.pem
+*.key
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+EOF
